@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "UML anywhere",
   "short_name": "uml-anywhere",
-  "version": "0.0.2",
+  "version": "1.0",
   "description": "Simple tool to use PlantUML server.",
   "author": "ryskiwt",
   "permissions": [
@@ -17,14 +17,12 @@
     "256": "icons/icon256.png",
     "512": "icons/icon512.png"
   },
-
   "browser_action": {
     "default_icon": {
       "32": "icons/icon32.png"
     },
     "default_title": "uml-anywhare"
   },
-
   "background": {
     "scripts": ["js/background.js"],
     "persistent": false
